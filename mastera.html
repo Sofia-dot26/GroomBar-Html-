@@ -1,0 +1,137 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/StyleSheet.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_contacts">
+                    <a class="header_phone" href="tel:89057550165">+7(905)755-01-65</a>
+                    <a class="header_email" href="#">groominsalon@gmail.com</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">Записаться</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_content">
+            <div class="container">
+                <div class="header_content-inner">
+                    <div class="header_logo">
+                        <a href="default.html">
+                            <img src="images/Logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="default.html">Главная</a></li>
+                            <li><a href="uslugi.html">Услуги</a></li>
+                            <li><a href="mastera.html">Мастера</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="team">
+        <h1>Мастера</h1>
+        <div class="container">
+            <div class="team_inner">
+
+                    <div class="team_item">
+                        <img class="team_photo" src="images/team1.jpeg" alt="">
+                        <div class="team_name">Елизавета</div>
+                        <div class="team_text">Дипломированный кинолог. Елизавета с легкостью справляется с самыми
+                            крошечными и самыми большими четвероногими друзьями.</div>
+                    </div>
+
+                    <div class="team_item">
+                        <img class="team_photo" src="images/team2.jpg" alt="">
+                        <div class="team_name">Алена</div>
+                        <div class="team_text">Выпускница Московской школы груминга. Всегда находит подход даже к самым
+                            строптивым клиентам!</div>
+                    </div>
+
+                    <div class="team_item">
+                        <img class="team_photo" src="images/team3.jpg" alt="">
+                        <div class="team_name">Ольга</div>
+                        <div class="team_text">Ольга закончила Московскую школу груминга. Она очень любит животных и
+                            ответственно подходит к работе.</div>
+                    </div>
+                    <div class="team_item">
+                        <img class="team_photo" src="images/team4.jpg" alt="">
+                        <div class="team_name">Анастасия</div>
+                        <div class="team_text">Закончила Московскую школу груминга. В ее нежных и добрых руках собакам
+                            уютно и комфортно.</div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer_content">
+            ©2021 template by Sofia Kurerova. Все права защищены.
+        </div>
+    </footer>
+
+
+        <div  id="modal">
+        <form >
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <select  name="optgroup">
+                <option value = ""> Выберете услугу</option>
+                <optgroup label = "Стрижки для собак"> <!--Группа №1 -->
+                    <option value = ""> Маленькие гладкошерстные породы </option>
+                    <option value = ""> Маленькие длинношерстные породы</option>
+                    <option value = ""> Средние породы </option>
+                    <option value = ""> Крупные породы </option>
+                </optgroup>
+                <optgroup label = "Стрижки для кошек"> <!--Группа №2 -->
+                    <option value = "">Комплекс "Стрижка кошек"</option>
+                    <option value = "">Комплекс "Стрижка Мейн-Куна"</option>
+                    <option value = "">Комплекс "Купание кошек"</option>
+                    <option value = "">Экспресс-линька</option>
+                </optgroup>
+                <optgroup label = "Чистка зубов"> <!--Группа №3 -->
+                    <option value = "">Мелкие породы</option>
+                    <option value = "">Средние породы</option>
+                    <option value = "">Крупные породы</option>
+                </optgroup>
+                <optgroup label = "Гигиенические услугу"> <!--Группа №4 -->
+                    <option value = "">Чистка параанальных желез</option>
+                    <option value = "">Стрижка когтей</option>
+                    <option value = "">Стрижка когтей с полировкой</option>
+                    <option value = "">Установка антицарапок</option>
+                    <option value = "">Чистка ушек</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Записаться">
+        </form>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

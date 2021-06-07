@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/StyleSheet.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_contacts">
+                    <a class="header_phone" href="tel:89057550165">+7(905)755-01-65</a>
+                    <a class="header_email" href="#">groominsalon@gmail.com</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" >Записаться</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_content">
+            <div class="container">
+                <div class="header_content-inner">
+                    <div class="header_logo">
+                        <a href="default.html">
+                            <img src="images/Logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="default.html">Главная</a></li>
+                            <li><a href="uslugi.html">Услуги</a></li>
+                            <li><a href="mastera.html">Мастера</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="banner_inner">
+                <div class="banner_item">
+                    <div class="banner_title">
+                        Groom Bar
+                    </div>
+                    <div class="banner_text">
+                        Для кошек и собак
+                    </div>
+                    <a  data-fancybox data-src="#modal" href="javascript:;"  class="banner_btn default-btn" >
+                        Записаться Онлайн
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about-top">
+                <div class="about-title-box">
+                    <div class="about-title">
+                        Почему клиенты выбирают салон Groom Bar...
+                    </div>
+                    <div class="about-text">
+                        и рады приходить в наш салон снова и снова?
+                    </div>
+                </div>
+                <div class="about-btn">
+                    <a href="uslugi.html">
+                        Показать все услуги
+                    </a>
+                </div>
+            </div>
+            <div class="about_items">
+                <div class="about_item">
+                    <img src="images/about-1.png" alt="">
+                    <div class="about_item-text">
+                        Современное оборудование;
+                        Качественная косметика.
+                    </div>
+                </div>
+                <div class="about_item">
+                    <img src="images/about-2.png" alt="">
+                    <div class="about_item-text">
+                        Комфортные условия;
+                        Удобное местоположение.
+                    </div>
+                </div>
+                <div class="about_item">
+                    <img src="images/about-3.png" alt="">
+                    <div class="about_item-text">
+                        Адекватные цены и скидки постоянным клиентам.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="slider_inner">
+            <div class="slider_item">
+                <img src="images/1.jpg">
+            </div>
+            <div class="slider_item">
+                <img src="images/2.jpg">
+            </div>
+            <div class="slider_item">
+                <img src="images/3.jpg">
+            </div>
+            <div class="slider_item">
+                <img src="images/4.jpg">
+            </div>
+            <div class="slider_item">
+                <img src="images/5.jpg">
+            </div>
+            <div class="slider_item">
+                <img src="images/6.jpg">
+            </div>
+            <div class="slider_item">
+                <img src="images/7.jpg">
+            </div>
+            
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer_content">
+            ©2021 template by Sofia Kurerova. Все права защищены.
+        </div>
+    </footer>
+
+    <div  id="modal">
+        <form >
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш телефон">
+            <select  name="optgroup">
+                <option value = ""> Выберете услугу</option>
+                <optgroup label = "Стрижки для собак"> <!--Группа №1 -->
+                    <option value = ""> Маленькие гладкошерстные породы </option>
+                    <option value = ""> Маленькие длинношерстные породы</option>
+                    <option value = ""> Средние породы </option>
+                    <option value = ""> Крупные породы </option>
+                </optgroup>
+                <optgroup label = "Стрижки для кошек"> <!--Группа №2 -->
+                    <option value = "">Комплекс "Стрижка кошек"</option>
+                    <option value = "">Комплекс "Стрижка Мейн-Куна"</option>
+                    <option value = "">Комплекс "Купание кошек"</option>
+                    <option value = "">Экспресс-линька</option>
+                </optgroup>
+                <optgroup label = "Чистка зубов"> <!--Группа №3 -->
+                    <option value = "">Мелкие породы</option>
+                    <option value = "">Средние породы</option>
+                    <option value = "">Крупные породы</option>
+                </optgroup>
+                <optgroup label = "Гигиенические услугу"> <!--Группа №4 -->
+                    <option value = "">Чистка параанальных желез</option>
+                    <option value = "">Стрижка когтей</option>
+                    <option value = "">Стрижка когтей с полировкой</option>
+                    <option value = "">Установка антицарапок</option>
+                    <option value = "">Чистка ушек</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Записаться">
+        </form>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
